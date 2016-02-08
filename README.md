@@ -38,11 +38,11 @@ Given
     };
     var lo = longcut(obj);
 
-| JavaScript | longcut | value |
-|-----|-----|----|
-| obj['key2'][3] | lo('key2')(3).val() | hello |
-| obj['key2']['another'] | lo('key')('another').val() | child object |
-| horribly complicated | lo(/3/).val() | { key3: 'just a string' } |
+| JavaScript               | longcut                      | value                       |
+|--------------------------|------------------------------|-----------------------------|
+| `obj['key2'][3]`         | `lo('key2')(3).val()`        | `hello`                     |
+| `obj['key2']['another']` | `lo('key')('another').val()` | `child object`              |
+| horribly complicated!    | `lo(/3/).val()`              | `{ key3: 'just a string' }` |
 
 ## Author
 
