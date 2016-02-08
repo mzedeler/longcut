@@ -1,0 +1,27 @@
+{
+  "name": "longcut",
+  "version": "1.0.1",
+  "description": "Carve out the things you want from deep JavaScript objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mzedeler/longcut.git"
+  },
+  "keywords": [
+    "data",
+    "transformation"
+  ],
+  "author": "Michael Zedeler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzedeler/longcut/issues"
+  },
+  "homepage": "https://github.com/mzedeler/longcut#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
