@@ -1,6 +1,6 @@
 {
   "name": "longcut",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Carve out the things you want from deep JavaScript objects",
   "main": "index.js",
   "scripts": {
